@@ -4,7 +4,7 @@
 
     <div class="animal">
         <div class="image-wrapper">
-            <img src="../img/with toy.jpg" alt="funny cat">
+            <img src="https://cdn.britannica.com/34/235834-050-C5843610/two-different-breeds-of-cats-side-by-side-outdoors-in-the-garden.jpg" alt="funny cat">
         </div>
 
         <div class="pet-description">

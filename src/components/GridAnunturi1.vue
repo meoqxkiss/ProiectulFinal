@@ -5,7 +5,7 @@
 
 <div class="animal">
     <div class="image-wrapper">
-        <img src="../img/cat without eye.jpg" alt="funny cat">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/39/Feral_cat_1.JPG" alt="funny cat">
     </div>
 
     <div class="pet-description">
