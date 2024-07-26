@@ -1,12 +1,28 @@
 <template>
     <div>
-<h1>HELLO WORLD</h1>
+        <Layout>
+            <HeroSection/>
+            <Left/>
+            <GridAnunturi/>
+            <Right/>
+        </Layout>
     </div>
 </template>
 
 <script>
+    import Left from '@/components/Left.vue';
+    import Right from '@/components/Right.vue';
+    import HeroSection from '@/components/HeroSection.vue';
+    import Layout from '@/components/Layout.vue';
+    import GridAnunturi from '@/components/GridAnunturi1.vue'
     export default {
-        
+        components: {
+            Left,
+            Right,
+            HeroSection,
+            Layout,
+            GridAnunturi
+        }
     }
 </script>
 
