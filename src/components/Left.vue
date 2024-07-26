@@ -5,7 +5,7 @@
     <div class="image-container">
         <div class="container">
         <img src="https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg" alt="dog Image" class="rightangle-image">
-        <div class="description"><h1>hi</h1> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium velit aperiam totam repellat voluptatibus enim ipsam rem saepe! Eum eveniet amet error sunt necessitatibus animi enim asperiores cum corrupti?</div>
+        <div class="description"><h1>De ce arata asa</h1> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium velit aperiam totam repellat voluptatibus enim ipsam rem saepe! Eum eveniet amet error sunt necessitatibus animi enim asperiores cum corrupti?</div>
     </div>
     </div>
     </body>
@@ -42,7 +42,7 @@
          }
         body {
             font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
+            background-color: #FEF3E2;
             color: #333;
             text-align: center;
             padding: 150px;

@@ -3,7 +3,7 @@
         <div class="image-container">
     <div class="container">
         <div class="description">
-            <h1>hi</h1> 
+            <h1>Aoleu ce caine</h1> 
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium velit aperiam
             totam repellat voluptatibus enim ipsam rem saepe! Eum eveniet amet error sunt necessitatibus animi enim
             asperiores cum corrupti?</p>
@@ -17,7 +17,7 @@
 <style scoped>
 .right {
             font-family: Arial, sans-serif;
-            background-color: #f3f3f3;
+            background-color: #FEF3E2;
             color: #333;
             padding: 150px;
             margin: 0;

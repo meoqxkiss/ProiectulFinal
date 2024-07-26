@@ -5,9 +5,9 @@
             </div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="success.stories.html">Success Stories</a></li>
-                    <li><a href="contact.us.html">Contact Us</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/home">Success Stories</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
                     
                 </ul>
             </nav>
