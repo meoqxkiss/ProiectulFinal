@@ -1,13 +1,20 @@
 <template>
     <div>
-        <h1>Vreau sa dorm</h1>
+        <Layout>
 
+        </Layout>
     </div>
 </template>
 
 <script>
+import Layout from '@/components/Layout.vue';
+    export default {
+        components: {
+        Layout
+        }
+    }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

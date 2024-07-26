@@ -1,25 +1,26 @@
 <template>
   <h1>Get friends help</h1>
   <br>
-    <div class="animals-grid">
-      <div class="animal">
-        <div class="image-wrapper">
-            <img src="../img/2 cats.jpg" alt="funny cat">
-        </div>
+  <div class="animals-grid">
 
-        <div class="pet-description">
-            <h4>Pet Name</h4>
+<div class="animal">
+    <div class="image-wrapper">
+        <img src="../img/cat without eye.jpg" alt="funny cat">
+    </div>
 
-            <p> Lorem, ipsum dolor sit amet consectetur adipisicing edivt. Laboriosam, suscipit saepe facere hic
-                sunt inventore omnis officia repellendus, tempore ducimus unde atque quos tempora sapiente impedit
-                dolorem, perferendis minima! Eveniet?
-            </p>
-            
+    <div class="pet-description">
+        <h4>Pet Name</h4>
+
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing edivt. Laboriosam, suscipit saepe facere hic
+            sunt inventore omnis officia repellendus, tempore ducimus unde atque quos tempora sapiente impedit
+            dolorem, perferendis minima! Eveniet?
+        </p>
+        <div>
+            <span>Ranit</span>&nbsp; &#8226; &nbsp;<span>Bolnav</span>&nbsp; &#8226; &nbsp; <span>Agresiv</span>
         </div>
     </div>
-  </div>
-
-  
+</div>
+</div>
 </template>
 
 <style scoped>
@@ -72,6 +73,7 @@ h1 {
 	background: #BEC6A0;
     border-radius: 40px;
     overflow: hidden;
+   
 }
 
 p {
@@ -83,6 +85,8 @@ h4 {
 }
 
 span {
-  content: "\2022"
+  content: "\2022";
+  font-size: 20px;
+  font-weight: bold;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <h1>Get friends help</h1><br>
+    <br>
 <div class="animals-grid">
 
     <div class="animal">
