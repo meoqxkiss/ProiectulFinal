@@ -1,5 +1,8 @@
 <template>
-  <h1>Get friends help</h1>
+  <h1>
+    <span v-if="route.name !== 'success'"> Animals in danger </span>
+    <span v-else> Saved animals 💖</span>
+  </h1>
   <br />
   <div class="animals-grid">
     <div class="animal" v-for="(animal, index) in friends" :key="index">
@@ -40,6 +43,11 @@ import { useRoute } from "vue-router";
 import { getFriends } from "../api/firebase.api";
 import SavedIcon from "../assets/saved.vue";
 export default {
+  setup() {
+    const route = useRoute();
+
+    return { route };
+  },
   components: {
     SavedIcon,
   },
@@ -48,9 +56,9 @@ export default {
   },
   methods: {
     async fetchFriends() {
-      const route = useRoute();
-
-      const result = await getFriends({ solved: route.name !== "success" });
+      const result = await getFriends({
+        solved: this.route.name === "success",
+      });
       this.friends = result?.docs.map((el) => el.data());
     },
   },

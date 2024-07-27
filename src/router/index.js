@@ -4,8 +4,8 @@ import Home from "../page/Home.vue";
 import ContactUs from "../page/ContactUs.vue";
 
 const routes = [
-  { path: "/", name: "success", component: SStories },
-  { path: "/home", name: "home", component: Home },
+  { path: "/", name: "home", component: SStories },
+  { path: "/success", name: "success", component: Home },
   { path: "/contact-us", name: "contact-us", component: ContactUs },
 ];
 
