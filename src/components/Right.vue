@@ -59,7 +59,7 @@ h1 {
 .description {
   font-size: 25px;
   line-height: 1.5;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .image-container img {

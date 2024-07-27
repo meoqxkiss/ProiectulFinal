@@ -1,14 +1,13 @@
 <template>
   <div class="hero-image">
     <div class="hero-text">
-      <h1>Acesta este un titlu ceva</h1>
+      <h1>Adoptă & Ajută</h1>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos
-        harum et unde eveniet eligendi commodi ad nam a?
+        Noi suntem o inițiativă non-guvernamentală dedicată salvării animalelor vagabonde, conectând oamenii care găsesc animale pe stradă cu azilurile locale care le pot oferi adăpost și îngrijire. 
       </p>
 
       <router-link to="/contact-us">
-        <button>Raporteaza un animal care are nevoie de ajutor</button>
+        <button>Raportează un animal</button>
       </router-link>
     </div>
   </div>
@@ -29,7 +28,7 @@ p {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.106)),
-    url("https://cdn.mos.cms.futurecdn.net/ASHH5bDmsp6wnK6mEfZdcU-970-80.jpg.webp");
+    url("https://images.unsplash.com/photo-1525253013412-55c1a69a5738?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,6 +51,7 @@ p {
   margin: 0;
   line-height: 1.5;
   font-size: 24px;
+  color:rgb(255, 255, 255);
 }
 
 .hero-text button {
@@ -59,8 +59,8 @@ p {
   outline: 0;
   display: inline-block;
   padding: 12px 32px;
-  color: black;
-  background-color: #bec69f;
+  color: rgb(19, 90, 60);
+  background-color: rgba(204, 212, 177, 0.851);
   text-align: center;
   cursor: pointer;
   border-radius: 10px;
@@ -69,7 +69,7 @@ p {
 }
 
 .hero-text button:hover {
-  background-color: #9aa080;
+  background-color: #8a996fe8;
 }
 
 .libre-baskerville-regular {
