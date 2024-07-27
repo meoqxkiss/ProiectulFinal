@@ -1,17 +1,17 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import ProiectFinal from '../views/ProiectFinal.vue'
-import Home from '../page/Home.vue'
-import ContactUs from '../page/ContactUs.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import SStories from "../page/success-stories.vue";
+import Home from "../page/Home.vue";
+import ContactUs from "../page/ContactUs.vue";
 
 const routes = [
-  { path: "/", name: 'ProiectFinal', component: ProiectFinal },
-  { path: "/home", name: 'Home', component: Home },
-  { path: "/contact-us", name: 'ContactUs', component: ContactUs },
-]
+  { path: "/", name: "success", component: SStories },
+  { path: "/home", name: "home", component: Home },
+  { path: "/contact-us", name: "contact-us", component: ContactUs },
+];
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
