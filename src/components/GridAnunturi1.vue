@@ -15,8 +15,12 @@
             sunt inventore omnis officia repellendus, tempore ducimus unde atque quos tempora sapiente impedit
             dolorem, perferendis minima! Eveniet?
         </p>
-        <div>
+        <div class="desc">
             <span>Ranit</span>&nbsp; &#8226; &nbsp;<span>Bolnav</span>&nbsp; &#8226; &nbsp; <span>Agresiv</span>
+            <br><br>
+            </div>
+            <div class="contact">
+            <span>012345678</span>&nbsp; &#8226; &nbsp;<span>girloti@gmail.com</span>&nbsp; &#8226; &nbsp; <span>STarda IMbrului 12</span>
         </div>
     </div>
 </div>
@@ -54,6 +58,8 @@
     width: full;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     height: 400px;
+    position: relative;
+    top: 10px;
 }
 
 
@@ -84,9 +90,12 @@ h4 {
     font-size: 24px;
 }
 
-span {
+.desc {
   content: "\2022";
   font-size: 20px;
   font-weight: bold;
+}
+.contact {
+    content: "\2022";
 }
 </style>
