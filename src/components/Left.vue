@@ -5,7 +5,7 @@
     <div class="image-container">
         <div class="container">
         <img src="https://www.hartz.com/wp-content/uploads/2022/04/small-dog-owners-1.jpg" alt="dog Image" class="rightangle-image">
-        <div class="description"><h1>De ce arata asa</h1> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium velit aperiam totam repellat voluptatibus enim ipsam rem saepe! Eum eveniet amet error sunt necessitatibus animi enim asperiores cum corrupti?</div>
+        <div class="description"><h1>De ce arata asa</h1> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores laudantium velit aperiam totam repellat voluptatibus enim ipsam rem saepe! Eum eveniet amet error sunt necessitatibus animi enim asperiores cum corrupti?</p></div>
     </div>
     </div>
     </body>
@@ -20,6 +20,12 @@
   
   <style scoped>
         
+        p {
+            color:rgb(148, 99, 64)
+        }
+        h1 {
+            color:rgb(82, 47, 26)
+        }
         .container {
             display: flex;
             justify-content: center;

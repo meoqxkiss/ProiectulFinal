@@ -33,6 +33,7 @@
 
 .pet-description {
     padding: 20px;
+    color: #2f4920;
 }
 
 .image-wrapper {

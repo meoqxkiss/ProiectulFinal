@@ -15,7 +15,9 @@
 </script>
 
 <style scoped>
-
+p {
+  color:#f8f7e3;
+}
   .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.019), rgba(0, 0, 0, 0.106)), url("https://cdn.mos.cms.futurecdn.net/ASHH5bDmsp6wnK6mEfZdcU-970-80.jpg.webp");
     height: 100%;

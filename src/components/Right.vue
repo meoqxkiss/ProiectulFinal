@@ -15,6 +15,12 @@
 </template>
 
 <style scoped>
+p {
+            color:rgb(148, 99, 64)
+        }
+        h1 {
+            color:rgb(82, 47, 26)
+        }
 .right {
             font-family: Arial, sans-serif;
             background-color: #FEF3E2;

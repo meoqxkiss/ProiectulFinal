@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+p, span, button, label, textarea, li {
+  font-family: "PT Serif", serif;
+}
+
+h1, h3, h4 {
+    font-family: "Domine", serif;
+}
+
 body {
     margin: 0;
     padding: 0;
