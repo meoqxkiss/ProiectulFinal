@@ -116,7 +116,7 @@
 </template>
 
 <script>
-import { addFriend } from "../api/firebase.api";
+import { addFriend } from "../API/firebase.api";
 import { toBase64 } from "../utils";
 export default {
   data() {

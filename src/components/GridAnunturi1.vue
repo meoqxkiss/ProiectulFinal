@@ -40,7 +40,7 @@
 
 <script>
 import { useRoute } from "vue-router";
-import { getFriends } from "../api/firebase.api";
+import { getFriends } from "../API/firebase.api";
 import SavedIcon from "../assets/saved.vue";
 export default {
   setup() {
